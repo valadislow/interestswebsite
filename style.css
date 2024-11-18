@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: black;
+    background-image: url(backVolya.png);
+    background-size: 50%; 
+    background-repeat: no-repeat; 
+    background-position: 50% -100%;
+}
+
+  div {
+    font-family: myFirstFont;
+  }
+  
+h1{
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px;
+}
+h3{
+    color: white;
+}
+
+nav{
+    width: all;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+        /* font-size: larger; */
+}
+.navdiv{
+    display: flex;
+    flex: center;
+    justify-content: space-between;
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    object-fit: cover; /* Keep the image centered */
+    object-position: center;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.content{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+nav a{
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+*{
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+}
+.textbox{
+    position: absolute;
+    margin: 30px;
+    height: 100px;
+    width: 400px;
+    color: white;
+    top: 70%;
+    font-size: x-large;
+    text-align: left;
+}
